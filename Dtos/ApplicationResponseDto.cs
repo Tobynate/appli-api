@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 
 namespace Appli.Api.Dtos
 {
@@ -10,4 +11,6 @@ namespace Appli.Api.Dtos
         public string Link { get; set; } = "";
         public JobApplicationStatus Status { get; set; }
     }
+
+   
 }
